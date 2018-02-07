@@ -5,8 +5,6 @@ script:
 - pdflatex -output-directory ../_build manuscript/manuscript.tex
 deploy:
   provider: releases
-  api_key:
-    secure: [KEY]
   file:
   - _build/manuscript.pdf
   skip_cleanup: true
