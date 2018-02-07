@@ -1,0 +1,41 @@
+\documentclass[a4paper,11pt,twoside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{lmodern}
+\usepackage[a4paper, hmargin=3cm, vmargin=3cm]{geometry}
+\usepackage{graphicx}
+\usepackage{abstract}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[font=small]{caption}
+\usepackage{subcaption}
+\usepackage{natbib}
+\AtBeginDocument{\renewcommand{\abstractname}{\vspace{-0.5cm}}}  %saco el título al resumen
+
+
+\begin{document}
+
+\title{\bf Título}
+\author{Soler, Santiago \\{\small santiago.r.soler@gmail.com }}
+\date{}
+
+\vspace{-1cm}
+\maketitle
+\vspace{-1cm}
+
+\begin{abstract}
+Abstract
+\end{abstract}
+
+
+\section{Introduction}
+
+Esta es la introducción.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{figs/travis.png}
+\caption{Travis CI logo}
+\end{figure}
+
+\end{document}
