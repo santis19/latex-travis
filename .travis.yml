@@ -3,7 +3,8 @@ before_install:
 
 script:
 - mkdir _build
-- pdflatex -output-directory _build manuscript/manuscript.tex
+- cd manuscript
+- pdflatex -output-directory ../_build manuscript.tex
 
 deploy:
   provider: releases
