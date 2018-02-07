@@ -5,6 +5,7 @@ script:
 - mkdir _build
 - cd manuscript
 - pdflatex -output-directory ../_build manuscript.tex
+- cd ..
 
 deploy:
   provider: releases
