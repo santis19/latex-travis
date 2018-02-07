@@ -14,5 +14,4 @@ deploy:
   file: _build/manuscript.pdf
   skip_cleanup: true
   on:
-    tags: true
     repo: santis19/latex-travis
